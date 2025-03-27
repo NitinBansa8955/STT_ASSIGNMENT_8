@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Page title -->
+    <title>Elasticsearch Frontend</title>
+</head>
+<body>
+    <!-- Main page heading -->
+    <h1>Elasticsearch Operations</h1>
+    <form method="post">
+        <!-- Text input field  -->
+        <input type="text" name="text" placeholder="Enter text" size="50">
+        <!-- Form submission buttons  -->
+        <button type="submit" formaction="/insert">Insert</button>
+        <button type="submit" formaction="/get">Get</button>
+    </form>
+    <div>
+        <!-- Result display section -->
+        <h3>Output:</h3>
+        <pre>{{ result }}</pre>
+    </div>
+</body>
+</html>
